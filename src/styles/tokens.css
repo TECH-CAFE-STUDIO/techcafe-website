@@ -19,9 +19,11 @@
   --transition-smooth: 0.4s cubic-bezier(0.22, 1, 0.36, 1);
 
   /* SHADOW */
-  --shadow-soft:
-    0 10px 30px rgba(0, 0, 0, 0.15);
+  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.15);
 
   /* NAVBAR */
   --navbar-height: 80px;
+
+  --mobile-padding: 1rem;
+  --tablet-padding: 2rem;
 }

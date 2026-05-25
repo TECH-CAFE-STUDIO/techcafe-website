@@ -1,21 +1,77 @@
-.tc-container {
-  width: min(100% - 2rem, var(--container-width));
-  margin-inline: auto;
+.tc-display {
+  font-size: clamp(4rem, 10vw, 8rem);
+  line-height: 0.9;
+  letter-spacing: -0.06em;
+  font-weight: 800;
+}
+
+.tc-heading-xl {
+  font-size: clamp(3rem, 7vw, 5rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+  font-weight: 700;
+}
+
+.tc-heading-lg {
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+}
+
+.tc-heading-md {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  line-height: 1.1;
+  font-weight: 600;
+}
+
+.tc-body-lg {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: var(--color-muted);
+}
+
+.tc-body {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--color-muted);
+}
+
+.tc-caption {
+  font-size: 0.875rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+.tc-section-sm {
+  padding-block: 5rem;
 }
 
 .tc-section {
   padding-block: 8rem;
 }
 
-.tc-heading {
-  font-size: clamp(3rem, 8vw, 6rem);
-  line-height: 0.95;
-  letter-spacing: -0.04em;
-  font-weight: 700;
+.tc-section-lg {
+  padding-block: 12rem;
 }
 
-.tc-subheading {
-  font-size: 1.125rem;
-  color: var(--color-muted);
-  line-height: 1.7;
+.tc-stack-sm > * + * {
+  margin-top: 1rem;
+}
+
+.tc-stack-md > * + * {
+  margin-top: 1.5rem;
+}
+
+.tc-stack-lg > * + * {
+  margin-top: 2rem;
+}
+
+.tc-container {
+  width: min(
+    100% - 2rem,
+    var(--container-width)
+  );
+
+  margin-inline: auto;
 }
