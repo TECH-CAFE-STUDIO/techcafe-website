@@ -1,0 +1,9 @@
+.fade-up {
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+.blur-in {
+  opacity: 0;
+  filter: blur(10px);
+}

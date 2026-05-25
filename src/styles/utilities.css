@@ -1,0 +1,21 @@
+.tc-container {
+  width: min(100% - 2rem, var(--container-width));
+  margin-inline: auto;
+}
+
+.tc-section {
+  padding-block: 8rem;
+}
+
+.tc-heading {
+  font-size: clamp(3rem, 8vw, 6rem);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+  font-weight: 700;
+}
+
+.tc-subheading {
+  font-size: 1.125rem;
+  color: var(--color-muted);
+  line-height: 1.7;
+}
